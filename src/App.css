@@ -9,13 +9,11 @@
   justify-content: center;
   position: fixed;
   bottom: 0;
-  right: 15vw;
   display: flex;
 }
 
 .nav{
 
-  margin-left: 28vw;
   background-color: black;
   display: flex;
   flex-direction: row;
