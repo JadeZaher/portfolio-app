@@ -5,7 +5,7 @@ const Nav = () => {
     <>
         <div className='nav-wrap'>
             <div className='nav'>
-                <Link to='/'> Home </Link>
+                <Link to='/home'> Home </Link>
                 <Link to='/about'> About </Link>
                 <Link to='/projects'> Projects </Link>
                 <Link to='/blog'> Blog </Link>

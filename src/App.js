@@ -1,12 +1,12 @@
 import './App.css';
-import Views from './Routes/views';
+import ViewControl from './Routes/ViewControl';
 import { BrowserRouter} from "react-router-dom";
 
 function App() {
   return (
 
       <BrowserRouter>
-       <Views/>
+       <ViewControl/>
       </BrowserRouter>
   );
 }
