@@ -46,8 +46,15 @@ export const Card = styled.div`
         font-size: 1.2rem;
         padding: 0 0 2vh 2vh;
     }
-
+    h2{
+        font-size: 1.2rem;
+        padding: 0 0 2vh 0;
+    }
+    div{
+        overflow: visible;
+    }
     p{
+
         width: 45vw;
         padding-right: 3%;
         padding-left: 3%;

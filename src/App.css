@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&family=Tapestry&display=swap');
 
 *{
-  overflow: hidden;
+  
   box-sizing: border-box;
   margin: 0 ;
   font-family: 'Readex Pro', sans-serif;
   /* font-family: 'Tapestry', cursive; */
 }
 body{
-  
+  overflow: hidden;
   background-color: rgb(247, 247, 247);
 }
 .center-wrap{
@@ -76,23 +76,40 @@ body{
 .back{
   border-radius:  3rem 3rem 1rem 1rem;
   margin-top: 50vh;
-  left: 5vw;
-
-  position: fixed;    
+  left: 5vw;  
 }
+
+.more{
+  margin-top: 30vh;
+  border-radius:  60%;
+  height: 2rem;
+  width: 9rem;
+  border: none;
+  filter:blur(.6px)
+}
+.more:hover{
+  transform: scale(120%);
+  transition: .45s;
+  border-bottom: solid 2px;
   
+}
+.more:hover:after{
+  transition: .45s;
+}
+
  button:hover{
   opacity: 1;
-
+  transform: scale(105%);
   filter:drop-shadow(0 0 .8rem chartreuse);
+  transition: .25s;
 }
 
 button{
   overflow: hidden;
   color: white;
-  background-color: chartreuse;
+  background-color: rgba(0, 0, 0, 0);
   opacity: .5;
-  padding: 2vh 5rem;
+  padding: 2vh 2rem;
   border-bottom: 3px;
   align-items: center;
   justify-content: center;

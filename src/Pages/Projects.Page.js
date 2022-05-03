@@ -29,12 +29,12 @@ export default function Projects() {
             <div className='item'>
             <div className='overlay'>
               
-            <h1>A Video Series On Health</h1>
+            <h1>{e.heading}</h1>
 
             <p>
-              This was a series of videos made for
+              {e.content}
             </p>
-
+            <button className='more'>Learn More</button>
             </div>
             </div>
           </SliderItem>
