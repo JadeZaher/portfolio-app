@@ -8,13 +8,10 @@ export const SliderItem = styled.div`
     justify-items: center;
     
     height:100vh;
-    width: 100%;
-    margin: .5VH;
-    overflow: hidden;
+    width: 100%;    
     background-color: white;
     box-shadow  : 0 6px 12px rgba(128, 255, 0, .8);
     border: .2px solid black;
-    border-radius: 1em;
     text-align: center;
 
     .overlay{
@@ -26,7 +23,7 @@ export const SliderItem = styled.div`
         align-items: center;
         
         h1{
-        font-size: 2.2rem;
+        font-size: 1.2rem;
         padding: 0 0 .5vh .5vh;
         color: #ffff;
         }   
@@ -42,11 +39,7 @@ export const SliderItem = styled.div`
         background-image  : url(${({imgsrc})=>imgsrc});
 
     }
-
-    h1{
-        font-size: 1.2rem;
-        padding: 0 0 2vh 2vh;
-    }
+    
 
     p{
         color: #fff;

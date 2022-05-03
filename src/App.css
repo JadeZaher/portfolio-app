@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&family=Tapestry&display=swap');
 
 *{
+  overflow: hidden;
   box-sizing: border-box;
   margin: 0 ;
   font-family: 'Readex Pro', sans-serif;
@@ -65,3 +66,52 @@ body{
   line-height: .8;
 }
 
+.next{
+  border-radius:  1rem 1rem 3rem 3rem;
+  margin-top: 50vh;
+  right: 5vw;
+
+}
+
+.back{
+  border-radius:  3rem 3rem 1rem 1rem;
+  margin-top: 50vh;
+  left: 5vw;
+
+  position: fixed;    
+}
+  
+ button:hover{
+  opacity: 1;
+
+  filter:drop-shadow(0 0 .8rem chartreuse);
+}
+
+button{
+  overflow: hidden;
+  color: white;
+  background-color: chartreuse;
+  opacity: .5;
+  padding: 2vh 5rem;
+  border-bottom: 3px;
+  align-items: center;
+  justify-content: center;
+  z-index:5;
+  display: flex;
+  position: fixed;
+}
+
+.no-scroll{
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+    .back{
+        margin-top: 5vh;
+
+    }
+    .next{
+
+        margin-top: 80vh;
+    }
+}

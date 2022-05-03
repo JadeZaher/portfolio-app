@@ -3,7 +3,6 @@ import Nav from "./nav";
 import HomePage from "../Pages/Home.Page";
 import AboutPage from "../Pages/About.Page";
 import Projects from "../Pages/Projects.Page";
-import Blog from "../Pages/Blog.Page";
 import Contact from "../Pages/Contact.Page";
 import NotFound from "../Pages/NotFound.Page";
 
@@ -16,7 +15,6 @@ const ViewControl = () => {
             <Route path="/home" element={<HomePage/>} />
             <Route path="/about" element={<AboutPage/>} />
             <Route path="/projects" element={<Projects/>} />
-            <Route path="/blog" element={<Blog/>} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="*" element={<NotFound/>} />
         </Route>
