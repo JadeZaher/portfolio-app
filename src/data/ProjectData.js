@@ -20,17 +20,5 @@ export const ProjectData = [
             id: 3,
             content: 'Co-founding a emerging model for permanently sustainable/affordable housing.',
             moreContent:'The Tres Rios Community Landtrust is a community owned and funded trust that buys land for development, and extends long term leases to the community members at a price that they set for themselves. The only conditions is that the property be given back to the trust once it is sold, keeping land ownership in the community, and providing avenues for community aid, home ownership, homelessness reduction, and much more. In this project I learned: Build a social media base and distribute marketing materials, build and maintain a  multilingual WordPress website. How to Incorporate a 501c3. Work with a diverse group of community leaders working to better their community.'
-        },
-        {
-            image: "https://images.unsplash.com/photo-1632085847101-028ec1b2abeb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=327&q=80",
-            heading: "Fourth Slide",
-            id: 4,
-            content: 'Sit sunt ad commodo nisi sit consequat esse eiusmod consequat eiusmod.'
-        },
-        {
-            image: "https://images.unsplash.com/photo-1635729788533-39c81a472550?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            heading: "Last Slide",
-            id: 5,
-            content: 'Eiusmod quis et quis Lorem ullamco quis aliquip esse.'
         }
     ]
