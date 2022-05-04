@@ -15,7 +15,7 @@ export const SliderItem = styled.div`
     text-align: center;
 
     .overlay{
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .6);
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -30,6 +30,7 @@ export const SliderItem = styled.div`
     }
     
     .item{
+        backdrop-filter: blur(5px);
         height:100%;
         width:100%;
         overflow: hidden;
@@ -39,7 +40,27 @@ export const SliderItem = styled.div`
         background-image  : url(${({imgsrc})=>imgsrc});
 
     }
-    
+    .modal{
+        overflow: visible;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: .65s;
+        position: absolute;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-content: center;
+        img{
+            height: 45vh;
+        }
+        p{
+            width: 80vw;
+            text-align: justify;
+            color: black;
+        }
+    }
 
     p{
         color: #fff;

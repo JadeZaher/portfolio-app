@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0 ;
   font-family: 'Readex Pro', sans-serif;
-  /* font-family: 'Tapestry', cursive; */
+  /* font-family: 'Tapestry', cursive; */ 
 }
 body{
   overflow: hidden;
@@ -80,6 +80,7 @@ body{
 }
 
 .more{
+
   margin-top: 30vh;
   border-radius:  60%;
   height: 2rem;
@@ -94,7 +95,19 @@ body{
   
 }
 .more:hover:after{
-  transition: .45s;
+  transition: .65s;
+}
+
+.return{
+  left:47%;
+  opacity: .8;
+  color: white;
+  background-color: black;
+  border-radius:  3rem 3rem 3rem 3rem;
+  border: none;
+  margin: 3vh 1vh 15vh 1vh;
+  position:static;
+
 }
 
  button:hover{
@@ -130,5 +143,8 @@ button{
     .next{
 
         margin-top: 80vh;
+    }
+    .return{
+      left:40%;
     }
 }
