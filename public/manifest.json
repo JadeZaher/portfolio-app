@@ -3,22 +3,25 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "Images/Breakthrough.png"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "Images/CareFromAnywhere.png"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "Images/MyCoach.png"
+    },
+    {
+      "src": "Images/ComeAlongSide.png"
+    },
+    {
+      "src": "Images/PCAssessment.png"
+    },
+    {
+      "src": "Images/TresRiosTrust.png"
     }
   ],
-  "start_url": ".",
+  "start_url": "ahmedzaher.net",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
