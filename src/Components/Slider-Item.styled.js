@@ -56,7 +56,7 @@ export const SliderItem = styled.div`
             height: 45vh;
         }
         p{
-            width: 80vw;
+            width: 40vw;
             text-align: justify;
             color: black;
         }
@@ -74,10 +74,16 @@ export const SliderItem = styled.div`
  
 
         font-size: .8rem;
-
-        p{
-            width: auto;
+        .modal{
+            Img{
+                width: 80vw;
+                object-fit: cover;
+                overflow: hidden;
+            }
+            p{
+                width: 80vw;
+            }
+            
         }
-        
     }
 `

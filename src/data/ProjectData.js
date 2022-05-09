@@ -1,24 +1,46 @@
 
 export const ProjectData = [
     {
-            image: "https://images.unsplash.com/photo-1609097989789-ec30a60879aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=426&q=80",
+            image: `${process.env.PUBLIC_URL + '/images/ComeAlongSide.png'}`,
             heading: "ComeAlongSide",
             id: 1,
-            content: 'A Voice Chat enabled VR meditation Experience In Unity.',
-            moreContent: 'ComeAlongSide was a project I developed while working at CareFromAnywhere as a software and marketing assistant. I expanded on my role’s original purpose, and acted as a developer/designer  for several software products. Using Unity I created a VR environment where 2 people could meet and voice chat, while sharing a guided meditation experience. In this project I learned: To set up To Deploy Unity VR, AR, and XR applications to Android, IOS, Windows, and Mac machines. To Build immersive 3D environments, add videos to them, and set them to playback. And To Integrate several different network, voice/video chat plugins, and create a UI players used to join multiplayer instances with voice chat. '
+            content: "A Voice Chat enabled VR Application for Health and Fitness.",
+            "moreContent": "ComeAlongSide is a VR application built using C# in Unity, with a cross-platform Voice chat integration using photon voice. On entering the experience the user would be able to use a room ID to create or join a room where they could voice chat with a loved one or caretaker, as they would both be immersed in a guided meditation experience."
         },
         {
-            image: "https://images.unsplash.com/photo-1609097989789-ec30a60879aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=426&q=80",
+            image: `${process.env.PUBLIC_URL + '/images/MyCoach.png'}`,
             heading: "MyCoach",
             id: 2,
-            content: 'A Alexa Voice App for Fitness',
-            moreContent:"MyCoach was another project I developed while working at CareFromAnywhere as a software and marketing assistant. I expanded on my role’s original purpose, and acted as a developer/designer  for several software products. Using Node.JS and the Alexa Skills Kit development platform I created a Application that hosts exercise  videos and serves them on a voice  command. In this project I learned: More about AWS architecture, how to connect to S3 and query AWS API’s  MVVM software design principles and how to use them to create flexible data driven UIs, and the nuances of User Experience Design for voice driven applications"
+            content: "An Alexa Voice skill for Health and Fitness",
+            "moreContent":"MyCoach is an Alexa Voice skill that allows the user to trigger video plays by voice command on any Alexa-enabled video device. The app consists of an endpoint that hosts the functionality for each command built with the Node.js javascript runtime environment. Any of the commands would trigger an API call to Alexa servers, which would return a response indicating UI information, video streaming data, and Alexa’s voice response. The skill also provides the option for a user to get routines e-mailed to them, that would set them up with reminders and affirmations for their day."
         },
         {
-            image: "https://images.unsplash.com/photo-1613381272025-4172b310ece4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            heading: "The Tres Rios Community Landtrust",
-            id: 3,
-            content: 'Co-founding a emerging model for permanently sustainable/affordable housing.',
-            moreContent:'The Tres Rios Community Landtrust is a community owned and funded trust that buys land for development, and extends long term leases to the community members at a price that they set for themselves. The only conditions is that the property be given back to the trust once it is sold, keeping land ownership in the community, and providing avenues for community aid, home ownership, homelessness reduction, and much more. In this project I learned: Build a social media base and distribute marketing materials, build and maintain a  multilingual WordPress website. How to Incorporate a 501c3. Work with a diverse group of community leaders working to better their community.'
-        }
+            image: `${process.env.PUBLIC_URL + '/images/PCAssessment.png'}`,
+            heading: "The PC Assessment",
+            id: 4,
+            content: "A dynamic intake form for a regenerative therapy clinic",
+            "moreContent":"An intake form to aid in categorizing new and prospective clients by their needs and goals, and label them accordingly in a CRM system. This was done on WIX using their Velo API, and Node.js. Implementing this update drastically reduced the time it would take to onboard new clients, and helped the Pacific Clinic further tailor its services to each individual.            "
+        },        
+        {
+            image: `${process.env.PUBLIC_URL + '/images/CareFromAnywhere.png'}`,
+            heading: "CareFromAnywhere",
+            id: 5,
+            content: "A UI/UX prototype for an in-home Care finder application.",
+            "moreContent":"A mobile App prototype built using Adobe XD for an in-home care service. In development at The Pacific Clinic, for their non-profit CareFromAnywhere, the goal of this app was to take the service model that Uber has for transportation and apply it to healthcare. I worked with the Executive director of the clinic to build this design."
+        },
+        {
+            image: `${process.env.PUBLIC_URL + '/images/Breakthrough.png'}`,
+            heading: "Breakthrough",
+            id: 6,
+            content: "A UI/UX prototype for timesheets, medication management, and behavior tracking.",
+            "moreContent":"While working for Breakthrough Inc I created a prototype for a tool that aids in medication management, behavior tracking, and time tracking efforts at Breakthrough. Breakthrough Inc is a care facility for teens and young adults with intellectual disabilities and challenging behaviors. I saw serious shortcomings in the paper tracking system and sought to do what I can help with this pain point. My current goal is to continue working with Breakthrough, hoping to take this app into development."
+        },
+        {
+            image: `${process.env.PUBLIC_URL + '/images/TresRiosTrust.png'}`,
+            heading: "Tres Rios Community Landtrust",
+            id: 7,
+            content: "Co-Founder and Technical Director for the Tres Rios Community Landtrust based in Tri-Cities WA",
+            "moreContent":"I’m working with a local group of community leaders to build a Community Land Trust (CLT). A CLT is an emerging model for homeownership that allows for community-driven development, and grants locals more control over the cost of housing. I act as the technical director, building/managing our website, creating branding documents, and supporting our social media presence efforts."
+        },
+
     ]

@@ -80,7 +80,7 @@ body{
 }
 
 .more{
-
+  background-color: rgba(0, 0, 0, 0);
   margin-top: 30vh;
   border-radius:  60%;
   height: 2rem;
@@ -92,6 +92,7 @@ body{
   transform: scale(120%);
   transition: .45s;
   border-bottom: solid 2px;
+  background-color: rgba(128, 255, 0, 0);
   
 }
 .more:hover:after{
@@ -100,9 +101,9 @@ body{
 
 .return{
   left:47%;
-  opacity: .8;
+  opacity: .9;
   color: white;
-  background-color: black;
+
   border-radius:  3rem 3rem 3rem 3rem;
   border: none;
   margin: 3vh 1vh 15vh 1vh;
@@ -113,6 +114,8 @@ body{
  button:hover{
   opacity: 1;
   transform: scale(105%);
+  border: none;
+  background-color: rgba(128, 255, 0, 1);
   filter:drop-shadow(0 0 .8rem chartreuse);
   transition: .25s;
 }
@@ -120,8 +123,7 @@ body{
 button{
   overflow: hidden;
   color: white;
-  background-color: rgba(0, 0, 0, 0);
-  opacity: .5;
+  background-color: rgba(0, 0, 0, 0.151);
   padding: 2vh 2rem;
   border-bottom: 3px;
   align-items: center;

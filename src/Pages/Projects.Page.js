@@ -44,7 +44,7 @@ export default function Projects() {
                 <button className='more' onClick={modalToggle} style={{display: modalActive ?'':'none'}}>Learn More</button>
                 <div className='modal' style={{opacity: modalActive ?'0%':'100%'}}>
                     <img src={e.image} alt='No Alt Text Yet - Coming Soon'/>
-                    <p>{e.moreContent}</p>
+                    <p dangerouslySetInnerHTML={{__html: e.moreContent}}></p>
                     <button className='return' onClick={modalToggle}>Return</button>
                 </div>
               </div>
