@@ -76,7 +76,7 @@ body{
 
 .back{
   border-radius:  3rem 3rem 1rem 1rem;
-  margin-bottom: 30vh;
+  margin-top: 50vh;
   left: 5vw;  
 }
 
@@ -143,12 +143,12 @@ button{
 
 @media (max-width: 900px) {
     .back{
-        margin-top: 5vh;
+        margin-top: 2rem;
 
     }
     .next{
 
-        margin-top: 80vh;
+        bottom: 6rem;
     }
     .return{
       left:40%;
